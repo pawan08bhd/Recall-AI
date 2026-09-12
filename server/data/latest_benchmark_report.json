@@ -1,0 +1,2523 @@
+{
+  "evaluatedAt": "2026-09-11T22:07:41.794Z",
+  "summary": {
+    "allQueries": {
+      "count": 40,
+      "top1Count": 40,
+      "top5Count": 40,
+      "top10Count": 40,
+      "top1Accuracy": 100,
+      "top5Accuracy": 100,
+      "top10Accuracy": 100,
+      "mrr": 1
+    },
+    "hardZeroWordQueries": {
+      "count": 8,
+      "top1Count": 8,
+      "top5Count": 8,
+      "top10Count": 8,
+      "top1Accuracy": 100,
+      "top5Accuracy": 100,
+      "top10Accuracy": 100,
+      "mrr": 1
+    },
+    "warmupQueries": {
+      "count": 32,
+      "top1Count": 32,
+      "top5Count": 32,
+      "top10Count": 32,
+      "top1Accuracy": 100,
+      "top5Accuracy": 100,
+      "top10Accuracy": 100,
+      "mrr": 1
+    },
+    "gap": {
+      "top1GapPercent": 0,
+      "top5GapPercent": 0,
+      "mrrGap": 0,
+      "insight": "The Top-1 accuracy gap between all 40 queries (100%) and the hard 8 zero-word-overlap queries (100%) is 0%. This reflects the semantic distance when the model has zero lexical anchors to lean on."
+    }
+  },
+  "details": [
+    {
+      "id": "Q_HARD_01",
+      "query": "When did we finalize the mountain vacation?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_1846",
+      "targetMessage": {
+        "id": "msg_1846",
+        "sender": "Rohan",
+        "timestamp": "2024-03-04T15:31:00.000Z",
+        "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "timestamp": "2024-03-04T15:31:00.000Z",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7420889771505073,
+        "baseSimilarity": 0.462,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.462,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.7420889771505073
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.596451285763113
+        },
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.5269842581563088
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_02",
+      "query": "Which residential tenancy deposit was sent?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_2763",
+      "targetMessage": {
+        "id": "msg_2763",
+        "sender": "Kabir",
+        "timestamp": "2024-04-10T14:30:00.000Z",
+        "text": "owner agreed, token transferred 25k, lease starts from 1st"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "timestamp": "2024-04-10T14:30:00.000Z",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "threadId": "thread_apartment_lease",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.9485143646552356,
+        "baseSimilarity": 0.669,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.669,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.9485143646552356
+        },
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.5322852098074858
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.4581333885816267
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_03",
+      "query": "What item got purchased for Rahul's departure?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_4240",
+      "targetMessage": {
+        "id": "msg_4240",
+        "sender": "Sneha",
+        "timestamp": "2024-06-08T18:40:00.000Z",
+        "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "timestamp": "2024-06-08T18:40:00.000Z",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "threadId": "thread_farewell_gift",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7768291491041988,
+        "baseSimilarity": 0.497,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.497,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.7768291491041988
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.55541890361092
+        },
+        {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "score": 0.5477397676839808
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_04",
+      "query": "How much did Priya recommend budgeting per person?",
+      "category": "person",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_1841",
+      "targetMessage": {
+        "id": "msg_1841",
+        "sender": "Priya",
+        "timestamp": "2024-03-04T14:53:00.000Z",
+        "text": "max 12k each strictly usse zyada afford nahi hoga"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1841",
+          "sender": "Priya",
+          "timestamp": "2024-03-04T14:53:00.000Z",
+          "text": "max 12k each strictly usse zyada afford nahi hoga",
+          "threadId": "thread_manali_trip",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7315444609507074,
+        "baseSimilarity": 0.512,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.512,
+          "lexical": 0,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1841",
+          "sender": "Priya",
+          "text": "max 12k each strictly usse zyada afford nahi hoga",
+          "score": 0.7315444609507074
+        },
+        {
+          "id": "msg_1804",
+          "sender": "Priya",
+          "text": "Budget kitna hoga hills ka? Flights are insanely expensive right now",
+          "score": 0.5898938445010113
+        },
+        {
+          "id": "msg_4818",
+          "sender": "Priya",
+          "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear",
+          "score": 0.5655704916186373
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_05",
+      "query": "Where was our celebration dinner booked?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_4241",
+      "targetMessage": {
+        "id": "msg_4241",
+        "sender": "Rohan",
+        "timestamp": "2024-06-08T18:55:00.000Z",
+        "text": "table reserved under my name at Toit 830pm sharp"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "timestamp": "2024-06-08T18:55:00.000Z",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "threadId": "thread_farewell_gift",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7521537619830181,
+        "baseSimilarity": 0.472,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.472,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 0.7521537619830181
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.6260137535191637
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.47844862239087116
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_06",
+      "query": "Who took responsibility for lodging reservation?",
+      "category": "person",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_1844",
+      "targetMessage": {
+        "id": "msg_1844",
+        "sender": "Vikram",
+        "timestamp": "2024-03-04T15:12:00.000Z",
+        "text": "vikram ne homestay advance de diya don't worry"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "timestamp": "2024-03-04T15:12:00.000Z",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.749358372955237,
+        "baseSimilarity": 0.469,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.469,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.749358372955237
+        },
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.7043761257895857
+        },
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.6575416597542927
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_07",
+      "query": "Which automobile transport arrangement got finalized?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_1845",
+      "targetMessage": {
+        "id": "msg_1845",
+        "sender": "Vikram",
+        "timestamp": "2024-03-04T15:27:00.000Z",
+        "text": "self drive car booked zoomcar scorpio pick up at airport"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "timestamp": "2024-03-04T15:27:00.000Z",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.6455135660979681,
+        "baseSimilarity": 0.366,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.366,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "score": 0.6455135660979681
+        },
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.6359865194121697
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.5294876041873808
+        }
+      ]
+    },
+    {
+      "id": "Q_HARD_08",
+      "query": "What time are people meeting at the terminal?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": true,
+      "targetId": "msg_1847",
+      "targetMessage": {
+        "id": "msg_1847",
+        "sender": "Vikram",
+        "timestamp": "2024-03-04T15:42:00.000Z",
+        "text": "gate number four pe assemble karenge subah 5 baje"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "timestamp": "2024-03-04T15:42:00.000Z",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.9003212754592242,
+        "baseSimilarity": 0.62,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.62,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.9003212754592242
+        },
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 0.66922772149717
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.6090373544663693
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_01",
+      "query": "What did Kabir say about the apartment rent?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2762",
+      "targetMessage": {
+        "id": "msg_2762",
+        "sender": "Kabir",
+        "timestamp": "2024-04-10T14:20:00.000Z",
+        "text": "Rent 48k se 1 rupee upar nahi denge broker ko bol diya hai"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2762",
+          "sender": "Kabir",
+          "timestamp": "2024-04-10T14:20:00.000Z",
+          "text": "Rent 48k se 1 rupee upar nahi denge broker ko bol diya hai",
+          "threadId": "thread_apartment_lease",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.9499493942665531,
+        "baseSimilarity": 0.53,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.5,
+        "breakdown": {
+          "semantic": 0.53,
+          "lexical": 0.2,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2762",
+          "sender": "Kabir",
+          "text": "Rent 48k se 1 rupee upar nahi denge broker ko bol diya hai",
+          "score": 0.9499493942665531
+        },
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.8235084837612148
+        },
+        {
+          "id": "msg_2738",
+          "sender": "Kabir",
+          "text": "Current flat ka lease khatam ho raha hai next month, we need a 3BHK in Indiranagar or HSR",
+          "score": 0.6735742103459942
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_02",
+      "query": "What was Neha's summary in May?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_3623",
+      "targetMessage": {
+        "id": "msg_3623",
+        "sender": "Neha",
+        "timestamp": "2024-05-15T15:14:00.000Z",
+        "text": "Summary of today's client meeting: production rollout postponed to June second week"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_3623",
+          "sender": "Neha",
+          "timestamp": "2024-05-15T15:14:00.000Z",
+          "text": "Summary of today's client meeting: production rollout postponed to June second week",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7222897426676893,
+        "baseSimilarity": 0.302,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.5,
+        "breakdown": {
+          "semantic": 0.302,
+          "lexical": 0.2,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_3623",
+          "sender": "Neha",
+          "text": "Summary of today's client meeting: production rollout postponed to June second week",
+          "score": 0.7222897426676893
+        },
+        {
+          "id": "msg_3449",
+          "sender": "Neha",
+          "text": "Manager ne 6:30 PM pe ad-hoc meeting daal di, kya bakwaas hai",
+          "score": 0.19986572678327952
+        },
+        {
+          "id": "msg_3680",
+          "sender": "Neha",
+          "text": "mera parcel security guard ke paas drop karwa diya",
+          "score": 0.1858316158616381
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_03",
+      "query": "Which cafe did Ananya review as 10 on 10?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2284",
+      "targetMessage": {
+        "id": "msg_2284",
+        "sender": "Ananya",
+        "timestamp": "2024-03-22T17:42:00.000Z",
+        "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2284",
+          "sender": "Ananya",
+          "timestamp": "2024-03-22T17:42:00.000Z",
+          "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7390611484058102,
+        "baseSimilarity": 0.519,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.519,
+          "lexical": 0,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2284",
+          "sender": "Ananya",
+          "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10",
+          "score": 0.7390611484058102
+        },
+        {
+          "id": "msg_1849",
+          "sender": "Ananya",
+          "text": "Finally! Sunglasses and winter jackets nikal lo sab",
+          "score": 0.4605951709392374
+        },
+        {
+          "id": "msg_1803",
+          "sender": "Ananya",
+          "text": "Goa March me bohot humid ho jayega guys. Let us go to the hills, fresh air!",
+          "score": 0.4259760194617118
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_04",
+      "query": "What gym workout plan did Amit announce?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1432",
+      "targetMessage": {
+        "id": "msg_1432",
+        "sender": "Amit",
+        "timestamp": "2024-02-18T20:23:00.000Z",
+        "text": "Cult fit pass renew kar liya hai, Monday se strictly 6 AM workout session"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1432",
+          "sender": "Amit",
+          "timestamp": "2024-02-18T20:23:00.000Z",
+          "text": "Cult fit pass renew kar liya hai, Monday se strictly 6 AM workout session",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.8053497896777395,
+        "baseSimilarity": 0.485,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.25,
+        "breakdown": {
+          "semantic": 0.485,
+          "lexical": 0.1,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1432",
+          "sender": "Amit",
+          "text": "Cult fit pass renew kar liya hai, Monday se strictly 6 AM workout session",
+          "score": 0.8053497896777395
+        },
+        {
+          "id": "msg_1801",
+          "sender": "Amit",
+          "text": "Ghar jaa raha hu main",
+          "score": 0.39652881884368807
+        },
+        {
+          "id": "msg_1308",
+          "sender": "Amit",
+          "text": "gym jane ka man bilkul nahi ho raha aaj",
+          "score": 0.36820095407530096
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_05",
+      "query": "What tax deadline reminder did Priya post?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1673",
+      "targetMessage": {
+        "id": "msg_1673",
+        "sender": "Priya",
+        "timestamp": "2024-02-28T19:04:00.000Z",
+        "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1673",
+          "sender": "Priya",
+          "timestamp": "2024-02-28T19:04:00.000Z",
+          "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.9314404060306269,
+        "baseSimilarity": 0.511,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.5,
+        "breakdown": {
+          "semantic": 0.511,
+          "lexical": 0.2,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1673",
+          "sender": "Priya",
+          "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM",
+          "score": 0.9314404060306269
+        },
+        {
+          "id": "msg_4818",
+          "sender": "Priya",
+          "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear",
+          "score": 0.4828292494768497
+        },
+        {
+          "id": "msg_1804",
+          "sender": "Priya",
+          "text": "Budget kitna hoga hills ka? Flights are insanely expensive right now",
+          "score": 0.4280348648030313
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_06",
+      "query": "Why was Vikram delayed on the airport road?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2611",
+      "targetMessage": {
+        "id": "msg_2611",
+        "sender": "Vikram",
+        "timestamp": "2024-04-05T08:28:00.000Z",
+        "text": "Airport road flyover pe rear tyre puncture ho gaya, 30 mins delay hoga"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2611",
+          "sender": "Vikram",
+          "timestamp": "2024-04-05T08:28:00.000Z",
+          "text": "Airport road flyover pe rear tyre puncture ho gaya, 30 mins delay hoga",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.534,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 1.113,
+        "breakdown": {
+          "semantic": 0.534,
+          "lexical": 0.445,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2611",
+          "sender": "Vikram",
+          "text": "Airport road flyover pe rear tyre puncture ho gaya, 30 mins delay hoga",
+          "score": 1
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.7489150898539857
+        },
+        {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "score": 0.7216350490724873
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_07",
+      "query": "Which biryani did Kabir order for lunch?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2971",
+      "targetMessage": {
+        "id": "msg_2971",
+        "sender": "Kabir",
+        "timestamp": "2024-04-18T13:17:00.000Z",
+        "text": "Meghana Foods chicken boneless biryani with extra salan ordered for lunch"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2971",
+          "sender": "Kabir",
+          "timestamp": "2024-04-18T13:17:00.000Z",
+          "text": "Meghana Foods chicken boneless biryani with extra salan ordered for lunch",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.54,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.95,
+        "breakdown": {
+          "semantic": 0.54,
+          "lexical": 0.38,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2971",
+          "sender": "Kabir",
+          "text": "Meghana Foods chicken boneless biryani with extra salan ordered for lunch",
+          "score": 1
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.6422167236013281
+        },
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.6284667719677886
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_08",
+      "query": "Which board games did Sneha invite everyone for?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_3356",
+      "targetMessage": {
+        "id": "msg_3356",
+        "sender": "Sneha",
+        "timestamp": "2024-05-04T18:46:00.000Z",
+        "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_3356",
+          "sender": "Sneha",
+          "timestamp": "2024-05-04T18:46:00.000Z",
+          "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.5811114183105195,
+        "baseSimilarity": 0.361,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.361,
+          "lexical": 0,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_3356",
+          "sender": "Sneha",
+          "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks",
+          "score": 0.5811114183105195
+        },
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.47128335331982674
+        },
+        {
+          "id": "msg_1806",
+          "sender": "Sneha",
+          "text": "Manali or Dharamshala? Manali me snow mil sakti hai Solang valley me",
+          "score": 0.43893187190970473
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_09",
+      "query": "Which sunrise trek did Rohan suggest booking?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_3748",
+      "targetMessage": {
+        "id": "msg_3748",
+        "sender": "Rohan",
+        "timestamp": "2024-05-20T21:50:00.000Z",
+        "text": "Skandagiri sunrise trek booking opens at midnight on Karnataka eco tourism website"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_3748",
+          "sender": "Rohan",
+          "timestamp": "2024-05-20T21:50:00.000Z",
+          "text": "Skandagiri sunrise trek booking opens at midnight on Karnataka eco tourism website",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.497,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 1.15,
+        "breakdown": {
+          "semantic": 0.497,
+          "lexical": 0.46,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_3748",
+          "sender": "Rohan",
+          "text": "Skandagiri sunrise trek booking opens at midnight on Karnataka eco tourism website",
+          "score": 1
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.8239777309183697
+        },
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 0.6958786814445664
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_10",
+      "query": "What did Neha say about the staging deployment?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4339",
+      "targetMessage": {
+        "id": "msg_4339",
+        "sender": "Neha",
+        "timestamp": "2024-06-12T16:27:00.000Z",
+        "text": "Deployed the payment webhook bugfix to staging, testing completed smoothly"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4339",
+          "sender": "Neha",
+          "timestamp": "2024-06-12T16:27:00.000Z",
+          "text": "Deployed the payment webhook bugfix to staging, testing completed smoothly",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.704560852333561,
+        "baseSimilarity": 0.115,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.925,
+        "breakdown": {
+          "semantic": 0.115,
+          "lexical": 0.37,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4339",
+          "sender": "Neha",
+          "text": "Deployed the payment webhook bugfix to staging, testing completed smoothly",
+          "score": 0.704560852333561
+        },
+        {
+          "id": "msg_3623",
+          "sender": "Neha",
+          "text": "Summary of today's client meeting: production rollout postponed to June second week",
+          "score": 0.5282035696528199
+        },
+        {
+          "id": "msg_4242",
+          "sender": "Neha",
+          "text": "Awesome! Main 8:15 tak Indiranagar pahuch jaungi directly office se",
+          "score": 0.4510218218671732
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_11",
+      "query": "Which concert tour did Ananya mention on BookMyShow?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4647",
+      "targetMessage": {
+        "id": "msg_4647",
+        "sender": "Ananya",
+        "timestamp": "2024-06-25T12:12:00.000Z",
+        "text": "Coldplay India tour rumors aa rahe hai BookMyShow pe, be ready guys"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4647",
+          "sender": "Ananya",
+          "timestamp": "2024-06-25T12:12:00.000Z",
+          "text": "Coldplay India tour rumors aa rahe hai BookMyShow pe, be ready guys",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.8292101444093263,
+        "baseSimilarity": 0.409,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.5,
+        "breakdown": {
+          "semantic": 0.409,
+          "lexical": 0.2,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4647",
+          "sender": "Ananya",
+          "text": "Coldplay India tour rumors aa rahe hai BookMyShow pe, be ready guys",
+          "score": 0.8292101444093263
+        },
+        {
+          "id": "msg_1803",
+          "sender": "Ananya",
+          "text": "Goa March me bohot humid ho jayega guys. Let us go to the hills, fresh air!",
+          "score": 0.4941993368283364
+        },
+        {
+          "id": "msg_1849",
+          "sender": "Ananya",
+          "text": "Finally! Sunglasses and winter jackets nikal lo sab",
+          "score": 0.45006469770160096
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_12",
+      "query": "What bet did Amit place on the T20 World Cup final?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4745",
+      "targetMessage": {
+        "id": "msg_4745",
+        "sender": "Amit",
+        "timestamp": "2024-06-29T19:02:00.000Z",
+        "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4745",
+          "sender": "Amit",
+          "timestamp": "2024-06-29T19:02:00.000Z",
+          "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.559,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 2.033,
+        "breakdown": {
+          "semantic": 0.559,
+          "lexical": 0.813,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4745",
+          "sender": "Amit",
+          "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty",
+          "score": 1
+        },
+        {
+          "id": "msg_1801",
+          "sender": "Amit",
+          "text": "Ghar jaa raha hu main",
+          "score": 0.5839841727622792
+        },
+        {
+          "id": "msg_1848",
+          "sender": "Amit",
+          "text": "Sorted scenes! Packing chalu kar raha hu",
+          "score": 0.37232283262863997
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_13",
+      "query": "What bill split amount did Priya request on Splitwise?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4818",
+      "targetMessage": {
+        "id": "msg_4818",
+        "sender": "Priya",
+        "timestamp": "2024-07-02T10:20:00.000Z",
+        "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4818",
+          "sender": "Priya",
+          "timestamp": "2024-07-02T10:20:00.000Z",
+          "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.8442938705453291,
+        "baseSimilarity": 0.464,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.4,
+        "breakdown": {
+          "semantic": 0.464,
+          "lexical": 0.16,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4818",
+          "sender": "Priya",
+          "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear",
+          "score": 0.8442938705453291
+        },
+        {
+          "id": "msg_1841",
+          "sender": "Priya",
+          "text": "max 12k each strictly usse zyada afford nahi hoga",
+          "score": 0.5506241731020128
+        },
+        {
+          "id": "msg_1804",
+          "sender": "Priya",
+          "text": "Budget kitna hoga hills ka? Flights are insanely expensive right now",
+          "score": 0.4261760949345604
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_14",
+      "query": "Which company job offer did Kabir clear?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_5130",
+      "targetMessage": {
+        "id": "msg_5130",
+        "sender": "Kabir",
+        "timestamp": "2024-07-15T16:08:00.000Z",
+        "text": "Guys cleared the final technical round at Grab, offer letter coming this week!"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_5130",
+          "sender": "Kabir",
+          "timestamp": "2024-07-15T16:08:00.000Z",
+          "text": "Guys cleared the final technical round at Grab, offer letter coming this week!",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.6925544586950979,
+        "baseSimilarity": 0.288,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.463,
+        "breakdown": {
+          "semantic": 0.288,
+          "lexical": 0.185,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_5130",
+          "sender": "Kabir",
+          "text": "Guys cleared the final technical round at Grab, offer letter coming this week!",
+          "score": 0.6925544586950979
+        },
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.5356160325732661
+        },
+        {
+          "id": "msg_2762",
+          "sender": "Kabir",
+          "text": "Rent 48k se 1 rupee upar nahi denge broker ko bol diya hai",
+          "score": 0.512474336527266
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_15",
+      "query": "What traffic waterlogging warning did Vikram give?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_5305",
+      "targetMessage": {
+        "id": "msg_5305",
+        "sender": "Vikram",
+        "timestamp": "2024-07-22T19:43:00.000Z",
+        "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_5305",
+          "sender": "Vikram",
+          "timestamp": "2024-07-22T19:43:00.000Z",
+          "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7882085777578492,
+        "baseSimilarity": 0.468,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 0.25,
+        "breakdown": {
+          "semantic": 0.468,
+          "lexical": 0.1,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_5305",
+          "sender": "Vikram",
+          "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely",
+          "score": 0.7882085777578492
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.6736709209018119
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.6568958912027217
+        }
+      ]
+    },
+    {
+      "id": "Q_PERSON_16",
+      "query": "What playlist did Sneha create for the road trip?",
+      "category": "person",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_5408",
+      "targetMessage": {
+        "id": "msg_5408",
+        "sender": "Sneha",
+        "timestamp": "2024-07-26T21:20:00.000Z",
+        "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_5408",
+          "sender": "Sneha",
+          "timestamp": "2024-07-26T21:20:00.000Z",
+          "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.482,
+        "decisionBoost": 0,
+        "personBoost": 0.22,
+        "lexicalScore": 1.15,
+        "breakdown": {
+          "semantic": 0.482,
+          "lexical": 0.46,
+          "personBoost": 0.22,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_5408",
+          "sender": "Sneha",
+          "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs",
+          "score": 1
+        },
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.5141565240461965
+        },
+        {
+          "id": "msg_2765",
+          "sender": "Sneha",
+          "text": "Shift kab karna hai? Packers and movers ka quote le lo",
+          "score": 0.5037226573185551
+        }
+      ]
+    },
+    {
+      "id": "Q_TIME_01",
+      "query": "What tax reminder was shared in February?",
+      "category": "time",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1673",
+      "targetMessage": {
+        "id": "msg_1673",
+        "sender": "Priya",
+        "timestamp": "2024-02-28T19:04:00.000Z",
+        "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1673",
+          "sender": "Priya",
+          "timestamp": "2024-02-28T19:04:00.000Z",
+          "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.6136281519499212,
+        "baseSimilarity": 0.414,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 0.5,
+        "breakdown": {
+          "semantic": 0.414,
+          "lexical": 0.2,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1673",
+          "sender": "Priya",
+          "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM",
+          "score": 0.6136281519499212
+        },
+        {
+          "id": "msg_1432",
+          "sender": "Amit",
+          "text": "Cult fit pass renew kar liya hai, Monday se strictly 6 AM workout session",
+          "score": 0.04644819628013553
+        },
+        {
+          "id": "msg_1120",
+          "sender": "Vikram",
+          "text": "Classic corporate Friday behaviour 💀",
+          "score": 0.015163819293490144
+        }
+      ]
+    },
+    {
+      "id": "Q_TIME_02",
+      "query": "What cafe was recommended in March?",
+      "category": "time",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2284",
+      "targetMessage": {
+        "id": "msg_2284",
+        "sender": "Ananya",
+        "timestamp": "2024-03-22T17:42:00.000Z",
+        "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2284",
+          "sender": "Ananya",
+          "timestamp": "2024-03-22T17:42:00.000Z",
+          "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.4396873720422234,
+        "baseSimilarity": 0.44,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.44,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2284",
+          "sender": "Ananya",
+          "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10",
+          "score": 0.4396873720422234
+        },
+        {
+          "id": "msg_1803",
+          "sender": "Ananya",
+          "text": "Goa March me bohot humid ho jayega guys. Let us go to the hills, fresh air!",
+          "score": 0.35368913295770443
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.2979891511230457
+        }
+      ]
+    },
+    {
+      "id": "Q_TIME_03",
+      "query": "What flat lease agreement was discussed in April?",
+      "category": "time",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2763",
+      "targetMessage": {
+        "id": "msg_2763",
+        "sender": "Kabir",
+        "timestamp": "2024-04-10T14:30:00.000Z",
+        "text": "owner agreed, token transferred 25k, lease starts from 1st"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "timestamp": "2024-04-10T14:30:00.000Z",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "threadId": "thread_apartment_lease",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.8012701172409472,
+        "baseSimilarity": 0.571,
+        "decisionBoost": 0.15,
+        "personBoost": 0,
+        "lexicalScore": 0.2,
+        "breakdown": {
+          "semantic": 0.571,
+          "lexical": 0.08,
+          "personBoost": 0,
+          "decisionBoost": 0.15,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.8012701172409472
+        },
+        {
+          "id": "msg_2738",
+          "sender": "Kabir",
+          "text": "Current flat ka lease khatam ho raha hai next month, we need a 3BHK in Indiranagar or HSR",
+          "score": 0.5181873931768859
+        },
+        {
+          "id": "msg_2762",
+          "sender": "Kabir",
+          "text": "Rent 48k se 1 rupee upar nahi denge broker ko bol diya hai",
+          "score": 0.33039214991410104
+        }
+      ]
+    },
+    {
+      "id": "Q_TIME_04",
+      "query": "What games night was planned in May?",
+      "category": "time",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_3356",
+      "targetMessage": {
+        "id": "msg_3356",
+        "sender": "Sneha",
+        "timestamp": "2024-05-04T18:46:00.000Z",
+        "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_3356",
+          "sender": "Sneha",
+          "timestamp": "2024-05-04T18:46:00.000Z",
+          "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.38871476517138914,
+        "baseSimilarity": 0.289,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 0.25,
+        "breakdown": {
+          "semantic": 0.289,
+          "lexical": 0.1,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_3356",
+          "sender": "Sneha",
+          "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks",
+          "score": 0.38871476517138914
+        },
+        {
+          "id": "msg_3623",
+          "sender": "Neha",
+          "text": "Summary of today's client meeting: production rollout postponed to June second week",
+          "score": 0.32650344723551816
+        },
+        {
+          "id": "msg_3748",
+          "sender": "Rohan",
+          "text": "Skandagiri sunrise trek booking opens at midnight on Karnataka eco tourism website",
+          "score": 0.15631557686590913
+        }
+      ]
+    },
+    {
+      "id": "Q_TIME_05",
+      "query": "What farewell gift was organized in June?",
+      "category": "time",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4240",
+      "targetMessage": {
+        "id": "msg_4240",
+        "sender": "Sneha",
+        "timestamp": "2024-06-08T18:40:00.000Z",
+        "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "timestamp": "2024-06-08T18:40:00.000Z",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "threadId": "thread_farewell_gift",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7844471099688932,
+        "baseSimilarity": 0.504,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.504,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 0.7844471099688932
+        },
+        {
+          "id": "msg_4210",
+          "sender": "Sneha",
+          "text": "Guys Rahul is leaving for London on July 10th. We have to organize a farewell gift and a proper party",
+          "score": 0.474614044763384
+        },
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 0.37480068691441615
+        }
+      ]
+    },
+    {
+      "id": "Q_TIME_06",
+      "query": "What job offer celebration happened in July?",
+      "category": "time",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_5130",
+      "targetMessage": {
+        "id": "msg_5130",
+        "sender": "Kabir",
+        "timestamp": "2024-07-15T16:08:00.000Z",
+        "text": "Guys cleared the final technical round at Grab, offer letter coming this week!"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_5130",
+          "sender": "Kabir",
+          "timestamp": "2024-07-15T16:08:00.000Z",
+          "text": "Guys cleared the final technical round at Grab, offer letter coming this week!",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.41049450212292043,
+        "baseSimilarity": 0.33,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 0.2,
+        "breakdown": {
+          "semantic": 0.33,
+          "lexical": 0.08,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_5130",
+          "sender": "Kabir",
+          "text": "Guys cleared the final technical round at Grab, offer letter coming this week!",
+          "score": 0.41049450212292043
+        },
+        {
+          "id": "msg_4818",
+          "sender": "Priya",
+          "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear",
+          "score": 0.3028855431112488
+        },
+        {
+          "id": "msg_5408",
+          "sender": "Sneha",
+          "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs",
+          "score": 0.11400442754337392
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_01",
+      "query": "When are we going to Manali for Holi?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1846",
+      "targetMessage": {
+        "id": "msg_1846",
+        "sender": "Rohan",
+        "timestamp": "2024-03-04T15:31:00.000Z",
+        "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "timestamp": "2024-03-04T15:31:00.000Z",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.8913363878676708,
+        "baseSimilarity": 0.611,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0,
+        "breakdown": {
+          "semantic": 0.611,
+          "lexical": 0,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.8913363878676708
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.5672695112089988
+        },
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 0.5054645795901243
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_02",
+      "query": "Who paid the homestay advance for the hills trip?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1844",
+      "targetMessage": {
+        "id": "msg_1844",
+        "sender": "Vikram",
+        "timestamp": "2024-03-04T15:12:00.000Z",
+        "text": "vikram ne homestay advance de diya don't worry"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "timestamp": "2024-03-04T15:12:00.000Z",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.7467896377713428,
+        "baseSimilarity": 0.147,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0.8,
+        "breakdown": {
+          "semantic": 0.147,
+          "lexical": 0.32,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.7467896377713428
+        },
+        {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "score": 0.629489846452159
+        },
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.5897385677127958
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_03",
+      "query": "Did Vikram book the Scorpio on Zoomcar?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1845",
+      "targetMessage": {
+        "id": "msg_1845",
+        "sender": "Vikram",
+        "timestamp": "2024-03-04T15:27:00.000Z",
+        "text": "self drive car booked zoomcar scorpio pick up at airport"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "timestamp": "2024-03-04T15:27:00.000Z",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.391,
+        "decisionBoost": 0.28,
+        "personBoost": 0.22,
+        "lexicalScore": 0.95,
+        "breakdown": {
+          "semantic": 0.391,
+          "lexical": 0.38,
+          "personBoost": 0.22,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1845",
+          "sender": "Vikram",
+          "text": "self drive car booked zoomcar scorpio pick up at airport",
+          "score": 1
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.7751926372980495
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.7107067851678895
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_04",
+      "query": "How much token deposit was paid for the 3BHK flat?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_2763",
+      "targetMessage": {
+        "id": "msg_2763",
+        "sender": "Kabir",
+        "timestamp": "2024-04-10T14:30:00.000Z",
+        "text": "owner agreed, token transferred 25k, lease starts from 1st"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "timestamp": "2024-04-10T14:30:00.000Z",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "threadId": "thread_apartment_lease",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 0.8401729842455515,
+        "baseSimilarity": 0.494,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0.167,
+        "breakdown": {
+          "semantic": 0.494,
+          "lexical": 0.067,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_2763",
+          "sender": "Kabir",
+          "text": "owner agreed, token transferred 25k, lease starts from 1st",
+          "score": 0.8401729842455515
+        },
+        {
+          "id": "msg_2738",
+          "sender": "Kabir",
+          "text": "Current flat ka lease khatam ho raha hai next month, we need a 3BHK in Indiranagar or HSR",
+          "score": 0.5787100260273876
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.545907848472557
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_05",
+      "query": "Which camera was bought for Rahul's farewell?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4240",
+      "targetMessage": {
+        "id": "msg_4240",
+        "sender": "Sneha",
+        "timestamp": "2024-06-08T18:40:00.000Z",
+        "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "timestamp": "2024-06-08T18:40:00.000Z",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "threadId": "thread_farewell_gift",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.663,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 0.25,
+        "breakdown": {
+          "semantic": 0.663,
+          "lexical": 0.1,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4240",
+          "sender": "Sneha",
+          "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done",
+          "score": 1
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.5826935867882457
+        },
+        {
+          "id": "msg_4214",
+          "sender": "Priya",
+          "text": "Sony ZV-E10 mirrorless camera ya Kindle Paperwhite? He loves photography",
+          "score": 0.5723355383136132
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_06",
+      "query": "Is the table reserved at Toit brewery?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4241",
+      "targetMessage": {
+        "id": "msg_4241",
+        "sender": "Rohan",
+        "timestamp": "2024-06-08T18:55:00.000Z",
+        "text": "table reserved under my name at Toit 830pm sharp"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "timestamp": "2024-06-08T18:55:00.000Z",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "threadId": "thread_farewell_gift",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.576,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 1.15,
+        "breakdown": {
+          "semantic": 0.576,
+          "lexical": 0.46,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 1
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.5470217935547099
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.45770255888423717
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_07",
+      "query": "What time is the flight meeting at gate number four?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_1847",
+      "targetMessage": {
+        "id": "msg_1847",
+        "sender": "Vikram",
+        "timestamp": "2024-03-04T15:42:00.000Z",
+        "text": "gate number four pe assemble karenge subah 5 baje"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "timestamp": "2024-03-04T15:42:00.000Z",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "threadId": "thread_manali_trip",
+          "isDecision": true,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.568,
+        "decisionBoost": 0.28,
+        "personBoost": 0,
+        "lexicalScore": 1.3,
+        "breakdown": {
+          "semantic": 0.568,
+          "lexical": 0.52,
+          "personBoost": 0,
+          "decisionBoost": 0.28,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 1
+        },
+        {
+          "id": "msg_4241",
+          "sender": "Rohan",
+          "text": "table reserved under my name at Toit 830pm sharp",
+          "score": 0.7226426844539611
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.592392378737886
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_08",
+      "query": "Which junction had heavy waterlogging in Bangalore?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_5305",
+      "targetMessage": {
+        "id": "msg_5305",
+        "sender": "Vikram",
+        "timestamp": "2024-07-22T19:43:00.000Z",
+        "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_5305",
+          "sender": "Vikram",
+          "timestamp": "2024-07-22T19:43:00.000Z",
+          "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.669,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 1,
+        "breakdown": {
+          "semantic": 0.669,
+          "lexical": 0.4,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_5305",
+          "sender": "Vikram",
+          "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely",
+          "score": 1
+        },
+        {
+          "id": "msg_1847",
+          "sender": "Vikram",
+          "text": "gate number four pe assemble karenge subah 5 baje",
+          "score": 0.6208914912666403
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.44623174429516654
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_09",
+      "query": "Who wants to listen to indie Hindi songs on Spotify?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_5408",
+      "targetMessage": {
+        "id": "msg_5408",
+        "sender": "Sneha",
+        "timestamp": "2024-07-26T21:20:00.000Z",
+        "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_5408",
+          "sender": "Sneha",
+          "timestamp": "2024-07-26T21:20:00.000Z",
+          "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.698,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 1.467,
+        "breakdown": {
+          "semantic": 0.698,
+          "lexical": 0.587,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_5408",
+          "sender": "Sneha",
+          "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs",
+          "score": 1
+        },
+        {
+          "id": "msg_4647",
+          "sender": "Ananya",
+          "text": "Coldplay India tour rumors aa rahe hai BookMyShow pe, be ready guys",
+          "score": 0.4288760453246406
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.4085624156472253
+        }
+      ]
+    },
+    {
+      "id": "Q_SEMANTIC_10",
+      "query": "Did India win the T20 World Cup final bet?",
+      "category": "meaning_decision",
+      "isZeroWordOverlap": false,
+      "targetId": "msg_4745",
+      "targetMessage": {
+        "id": "msg_4745",
+        "sender": "Amit",
+        "timestamp": "2024-06-29T19:02:00.000Z",
+        "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty"
+      },
+      "rank": 1,
+      "isTop1": true,
+      "isTop5": true,
+      "isTop10": true,
+      "reciprocalRank": 1,
+      "topHit": {
+        "message": {
+          "id": "msg_4745",
+          "sender": "Amit",
+          "timestamp": "2024-06-29T19:02:00.000Z",
+          "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty",
+          "threadId": "general_chat",
+          "isDecision": false,
+          "isForwarded": false,
+          "isMediaOmitted": false
+        },
+        "score": 1,
+        "baseSimilarity": 0.689,
+        "decisionBoost": 0,
+        "personBoost": 0,
+        "lexicalScore": 2.057,
+        "breakdown": {
+          "semantic": 0.689,
+          "lexical": 0.823,
+          "personBoost": 0,
+          "decisionBoost": 0,
+          "penalties": 0
+        }
+      },
+      "topHitsSnippet": [
+        {
+          "id": "msg_4745",
+          "sender": "Amit",
+          "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty",
+          "score": 1
+        },
+        {
+          "id": "msg_1844",
+          "sender": "Vikram",
+          "text": "vikram ne homestay advance de diya don't worry",
+          "score": 0.47454111009678224
+        },
+        {
+          "id": "msg_1846",
+          "sender": "Rohan",
+          "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko",
+          "score": 0.4218165517085959
+        }
+      ]
+    }
+  ]
+}
