@@ -1,0 +1,570 @@
+[
+  {
+    "id": "Q_HARD_01",
+    "query": "When did we finalize the mountain vacation?",
+    "targetId": "msg_1846",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": true,
+    "description": "Decision to finalize the Manali trip. Answer is code-mixed Hinglish confirming dates and booking tickets.",
+    "targetMessage": {
+      "id": "msg_1846",
+      "sender": "Rohan",
+      "timestamp": "2024-03-04T15:31:00.000Z",
+      "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko"
+    }
+  },
+  {
+    "id": "Q_HARD_02",
+    "query": "Which residential tenancy deposit was sent?",
+    "targetId": "msg_2763",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": true,
+    "description": "Flat lease token transfer confirmation. Answer uses token/advance terminology.",
+    "targetMessage": {
+      "id": "msg_2763",
+      "sender": "Kabir",
+      "timestamp": "2024-04-10T14:30:00.000Z",
+      "text": "owner agreed, token transferred 25k, lease starts from 1st"
+    }
+  },
+  {
+    "id": "Q_HARD_03",
+    "query": "What item got purchased for Rahul's departure?",
+    "targetId": "msg_4240",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": true,
+    "description": "Farewell gift purchase. Answer confirms camera purchase with warranty.",
+    "targetMessage": {
+      "id": "msg_4240",
+      "sender": "Sneha",
+      "timestamp": "2024-06-08T18:40:00.000Z",
+      "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done"
+    }
+  },
+  {
+    "id": "Q_HARD_04",
+    "query": "How much did Priya recommend budgeting per person?",
+    "targetId": "msg_1841",
+    "category": "person",
+    "isZeroWordOverlap": true,
+    "description": "Priya's budget recommendation. Answer gives 12k max cap in Hinglish.",
+    "targetMessage": {
+      "id": "msg_1841",
+      "sender": "Priya",
+      "timestamp": "2024-03-04T14:53:00.000Z",
+      "text": "max 12k each strictly usse zyada afford nahi hoga"
+    }
+  },
+  {
+    "id": "Q_HARD_05",
+    "query": "Where was our celebration dinner booked?",
+    "targetId": "msg_4241",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": true,
+    "description": "Dinner table reservation at Toit.",
+    "targetMessage": {
+      "id": "msg_4241",
+      "sender": "Rohan",
+      "timestamp": "2024-06-08T18:55:00.000Z",
+      "text": "table reserved under my name at Toit 830pm sharp"
+    }
+  },
+  {
+    "id": "Q_HARD_06",
+    "query": "Who took responsibility for lodging reservation?",
+    "targetId": "msg_1844",
+    "category": "person",
+    "isZeroWordOverlap": true,
+    "description": "Vikram paying homestay advance for the group.",
+    "targetMessage": {
+      "id": "msg_1844",
+      "sender": "Vikram",
+      "timestamp": "2024-03-04T15:12:00.000Z",
+      "text": "vikram ne homestay advance de diya don't worry"
+    }
+  },
+  {
+    "id": "Q_HARD_07",
+    "query": "Which automobile transport arrangement got finalized?",
+    "targetId": "msg_1845",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": true,
+    "description": "Self-drive Zoomcar Scorpio booking.",
+    "targetMessage": {
+      "id": "msg_1845",
+      "sender": "Vikram",
+      "timestamp": "2024-03-04T15:27:00.000Z",
+      "text": "self drive car booked zoomcar scorpio pick up at airport"
+    }
+  },
+  {
+    "id": "Q_HARD_08",
+    "query": "What time are people meeting at the terminal?",
+    "targetId": "msg_1847",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": true,
+    "description": "Airport gate 4 gathering time in Hinglish.",
+    "targetMessage": {
+      "id": "msg_1847",
+      "sender": "Vikram",
+      "timestamp": "2024-03-04T15:42:00.000Z",
+      "text": "gate number four pe assemble karenge subah 5 baje"
+    }
+  },
+  {
+    "id": "Q_PERSON_01",
+    "query": "What did Kabir say about the apartment rent?",
+    "targetId": "msg_2762",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Kabir",
+    "targetMessage": {
+      "id": "msg_2762",
+      "sender": "Kabir",
+      "timestamp": "2024-04-10T14:20:00.000Z",
+      "text": "Rent 48k se 1 rupee upar nahi denge broker ko bol diya hai"
+    }
+  },
+  {
+    "id": "Q_PERSON_02",
+    "query": "What was Neha's summary in May?",
+    "targetId": "msg_3623",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Neha",
+    "targetMessage": {
+      "id": "msg_3623",
+      "sender": "Neha",
+      "timestamp": "2024-05-15T15:14:00.000Z",
+      "text": "Summary of today's client meeting: production rollout postponed to June second week"
+    }
+  },
+  {
+    "id": "Q_PERSON_03",
+    "query": "Which cafe did Ananya review as 10 on 10?",
+    "targetId": "msg_2284",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Ananya",
+    "targetMessage": {
+      "id": "msg_2284",
+      "sender": "Ananya",
+      "timestamp": "2024-03-22T17:42:00.000Z",
+      "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10"
+    }
+  },
+  {
+    "id": "Q_PERSON_04",
+    "query": "What gym workout plan did Amit announce?",
+    "targetId": "msg_1432",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Amit",
+    "targetMessage": {
+      "id": "msg_1432",
+      "sender": "Amit",
+      "timestamp": "2024-02-18T20:23:00.000Z",
+      "text": "Cult fit pass renew kar liya hai, Monday se strictly 6 AM workout session"
+    }
+  },
+  {
+    "id": "Q_PERSON_05",
+    "query": "What tax deadline reminder did Priya post?",
+    "targetId": "msg_1673",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Priya",
+    "targetMessage": {
+      "id": "msg_1673",
+      "sender": "Priya",
+      "timestamp": "2024-02-28T19:04:00.000Z",
+      "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM"
+    }
+  },
+  {
+    "id": "Q_PERSON_06",
+    "query": "Why was Vikram delayed on the airport road?",
+    "targetId": "msg_2611",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Vikram",
+    "targetMessage": {
+      "id": "msg_2611",
+      "sender": "Vikram",
+      "timestamp": "2024-04-05T08:28:00.000Z",
+      "text": "Airport road flyover pe rear tyre puncture ho gaya, 30 mins delay hoga"
+    }
+  },
+  {
+    "id": "Q_PERSON_07",
+    "query": "Which biryani did Kabir order for lunch?",
+    "targetId": "msg_2971",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Kabir",
+    "targetMessage": {
+      "id": "msg_2971",
+      "sender": "Kabir",
+      "timestamp": "2024-04-18T13:17:00.000Z",
+      "text": "Meghana Foods chicken boneless biryani with extra salan ordered for lunch"
+    }
+  },
+  {
+    "id": "Q_PERSON_08",
+    "query": "Which board games did Sneha invite everyone for?",
+    "targetId": "msg_3356",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Sneha",
+    "targetMessage": {
+      "id": "msg_3356",
+      "sender": "Sneha",
+      "timestamp": "2024-05-04T18:46:00.000Z",
+      "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks"
+    }
+  },
+  {
+    "id": "Q_PERSON_09",
+    "query": "Which sunrise trek did Rohan suggest booking?",
+    "targetId": "msg_3748",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Rohan",
+    "targetMessage": {
+      "id": "msg_3748",
+      "sender": "Rohan",
+      "timestamp": "2024-05-20T21:50:00.000Z",
+      "text": "Skandagiri sunrise trek booking opens at midnight on Karnataka eco tourism website"
+    }
+  },
+  {
+    "id": "Q_PERSON_10",
+    "query": "What did Neha say about the staging deployment?",
+    "targetId": "msg_4339",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Neha",
+    "targetMessage": {
+      "id": "msg_4339",
+      "sender": "Neha",
+      "timestamp": "2024-06-12T16:27:00.000Z",
+      "text": "Deployed the payment webhook bugfix to staging, testing completed smoothly"
+    }
+  },
+  {
+    "id": "Q_PERSON_11",
+    "query": "Which concert tour did Ananya mention on BookMyShow?",
+    "targetId": "msg_4647",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Ananya",
+    "targetMessage": {
+      "id": "msg_4647",
+      "sender": "Ananya",
+      "timestamp": "2024-06-25T12:12:00.000Z",
+      "text": "Coldplay India tour rumors aa rahe hai BookMyShow pe, be ready guys"
+    }
+  },
+  {
+    "id": "Q_PERSON_12",
+    "query": "What bet did Amit place on the T20 World Cup final?",
+    "targetId": "msg_4745",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Amit",
+    "targetMessage": {
+      "id": "msg_4745",
+      "sender": "Amit",
+      "timestamp": "2024-06-29T19:02:00.000Z",
+      "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty"
+    }
+  },
+  {
+    "id": "Q_PERSON_13",
+    "query": "What bill split amount did Priya request on Splitwise?",
+    "targetId": "msg_4818",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Priya",
+    "targetMessage": {
+      "id": "msg_4818",
+      "sender": "Priya",
+      "timestamp": "2024-07-02T10:20:00.000Z",
+      "text": "Splitwise updated with yesterday's barbecue nation bill, 1420 per head please clear"
+    }
+  },
+  {
+    "id": "Q_PERSON_14",
+    "query": "Which company job offer did Kabir clear?",
+    "targetId": "msg_5130",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Kabir",
+    "targetMessage": {
+      "id": "msg_5130",
+      "sender": "Kabir",
+      "timestamp": "2024-07-15T16:08:00.000Z",
+      "text": "Guys cleared the final technical round at Grab, offer letter coming this week!"
+    }
+  },
+  {
+    "id": "Q_PERSON_15",
+    "query": "What traffic waterlogging warning did Vikram give?",
+    "targetId": "msg_5305",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Vikram",
+    "targetMessage": {
+      "id": "msg_5305",
+      "sender": "Vikram",
+      "timestamp": "2024-07-22T19:43:00.000Z",
+      "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely"
+    }
+  },
+  {
+    "id": "Q_PERSON_16",
+    "query": "What playlist did Sneha create for the road trip?",
+    "targetId": "msg_5408",
+    "category": "person",
+    "isZeroWordOverlap": false,
+    "expectedSender": "Sneha",
+    "targetMessage": {
+      "id": "msg_5408",
+      "sender": "Sneha",
+      "timestamp": "2024-07-26T21:20:00.000Z",
+      "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs"
+    }
+  },
+  {
+    "id": "Q_TIME_01",
+    "query": "What tax reminder was shared in February?",
+    "targetId": "msg_1673",
+    "category": "time",
+    "isZeroWordOverlap": false,
+    "timeRange": {
+      "start": "2024-02-01",
+      "end": "2024-02-29"
+    },
+    "targetMessage": {
+      "id": "msg_1673",
+      "sender": "Priya",
+      "timestamp": "2024-02-28T19:04:00.000Z",
+      "text": "Reminder guys: Old tax regime vs new tax regime declaration portal closes tonight at 11:59 PM"
+    }
+  },
+  {
+    "id": "Q_TIME_02",
+    "query": "What cafe was recommended in March?",
+    "targetId": "msg_2284",
+    "category": "time",
+    "isZeroWordOverlap": false,
+    "timeRange": {
+      "start": "2024-03-01",
+      "end": "2024-03-31"
+    },
+    "targetMessage": {
+      "id": "msg_2284",
+      "sender": "Ananya",
+      "timestamp": "2024-03-22T17:42:00.000Z",
+      "text": "Blue Tokai Indiranagar sourdough toast and pour-over coffee was 10 on 10"
+    }
+  },
+  {
+    "id": "Q_TIME_03",
+    "query": "What flat lease agreement was discussed in April?",
+    "targetId": "msg_2763",
+    "category": "time",
+    "isZeroWordOverlap": false,
+    "timeRange": {
+      "start": "2024-04-01",
+      "end": "2024-04-30"
+    },
+    "targetMessage": {
+      "id": "msg_2763",
+      "sender": "Kabir",
+      "timestamp": "2024-04-10T14:30:00.000Z",
+      "text": "owner agreed, token transferred 25k, lease starts from 1st"
+    }
+  },
+  {
+    "id": "Q_TIME_04",
+    "query": "What games night was planned in May?",
+    "targetId": "msg_3356",
+    "category": "time",
+    "isZeroWordOverlap": false,
+    "timeRange": {
+      "start": "2024-05-01",
+      "end": "2024-05-31"
+    },
+    "targetMessage": {
+      "id": "msg_3356",
+      "sender": "Sneha",
+      "timestamp": "2024-05-04T18:46:00.000Z",
+      "text": "Catan and Codenames night at my apartment this Saturday 7 PM bring snacks"
+    }
+  },
+  {
+    "id": "Q_TIME_05",
+    "query": "What farewell gift was organized in June?",
+    "targetId": "msg_4240",
+    "category": "time",
+    "isZeroWordOverlap": false,
+    "timeRange": {
+      "start": "2024-06-01",
+      "end": "2024-06-30"
+    },
+    "targetMessage": {
+      "id": "msg_4240",
+      "sender": "Sneha",
+      "timestamp": "2024-06-08T18:40:00.000Z",
+      "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done"
+    }
+  },
+  {
+    "id": "Q_TIME_06",
+    "query": "What job offer celebration happened in July?",
+    "targetId": "msg_5130",
+    "category": "time",
+    "isZeroWordOverlap": false,
+    "timeRange": {
+      "start": "2024-07-01",
+      "end": "2024-07-31"
+    },
+    "targetMessage": {
+      "id": "msg_5130",
+      "sender": "Kabir",
+      "timestamp": "2024-07-15T16:08:00.000Z",
+      "text": "Guys cleared the final technical round at Grab, offer letter coming this week!"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_01",
+    "query": "When are we going to Manali for Holi?",
+    "targetId": "msg_1846",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_1846",
+      "sender": "Rohan",
+      "timestamp": "2024-03-04T15:31:00.000Z",
+      "text": "bhai ticket book kar lo ab sab confirmed hai date 14 ko"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_02",
+    "query": "Who paid the homestay advance for the hills trip?",
+    "targetId": "msg_1844",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_1844",
+      "sender": "Vikram",
+      "timestamp": "2024-03-04T15:12:00.000Z",
+      "text": "vikram ne homestay advance de diya don't worry"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_03",
+    "query": "Did Vikram book the Scorpio on Zoomcar?",
+    "targetId": "msg_1845",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_1845",
+      "sender": "Vikram",
+      "timestamp": "2024-03-04T15:27:00.000Z",
+      "text": "self drive car booked zoomcar scorpio pick up at airport"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_04",
+    "query": "How much token deposit was paid for the 3BHK flat?",
+    "targetId": "msg_2763",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_2763",
+      "sender": "Kabir",
+      "timestamp": "2024-04-10T14:30:00.000Z",
+      "text": "owner agreed, token transferred 25k, lease starts from 1st"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_05",
+    "query": "Which camera was bought for Rahul's farewell?",
+    "targetId": "msg_4240",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_4240",
+      "sender": "Sneha",
+      "timestamp": "2024-06-08T18:40:00.000Z",
+      "text": "sabka contribution aa gaya, placed order Sony camera 2yr warranty done"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_06",
+    "query": "Is the table reserved at Toit brewery?",
+    "targetId": "msg_4241",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_4241",
+      "sender": "Rohan",
+      "timestamp": "2024-06-08T18:55:00.000Z",
+      "text": "table reserved under my name at Toit 830pm sharp"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_07",
+    "query": "What time is the flight meeting at gate number four?",
+    "targetId": "msg_1847",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_1847",
+      "sender": "Vikram",
+      "timestamp": "2024-03-04T15:42:00.000Z",
+      "text": "gate number four pe assemble karenge subah 5 baje"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_08",
+    "query": "Which junction had heavy waterlogging in Bangalore?",
+    "targetId": "msg_5305",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_5305",
+      "sender": "Vikram",
+      "timestamp": "2024-07-22T19:43:00.000Z",
+      "text": "Heavy waterlogging near Silk Board junction, avoid Outer Ring Road completely"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_09",
+    "query": "Who wants to listen to indie Hindi songs on Spotify?",
+    "targetId": "msg_5408",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_5408",
+      "sender": "Sneha",
+      "timestamp": "2024-07-26T21:20:00.000Z",
+      "text": "Created collaborative monsoon road trip playlist on Spotify, add your indie Hindi songs"
+    }
+  },
+  {
+    "id": "Q_SEMANTIC_10",
+    "query": "Did India win the T20 World Cup final bet?",
+    "targetId": "msg_4745",
+    "category": "meaning_decision",
+    "isZeroWordOverlap": false,
+    "targetMessage": {
+      "id": "msg_4745",
+      "sender": "Amit",
+      "timestamp": "2024-06-29T19:02:00.000Z",
+      "text": "T20 World Cup final India jeetegi, 500 rs bet with Kabir on Rohit Sharma fifty"
+    }
+  }
+]
