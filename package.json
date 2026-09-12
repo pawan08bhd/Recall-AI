@@ -1,0 +1,27 @@
+{
+  "name": "search-a-group-chat-properly",
+  "version": "1.0.0",
+  "description": "Semantic & Tri-Modal Search Engine for messy Hinglish group chats solving zero-word-overlap retrieval",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "generate": "npm --prefix server run generate",
+    "seed": "npm --prefix server run seed",
+    "benchmark": "npm --prefix server run benchmark",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  },
+  "keywords": [
+    "semantic-search",
+    "zero-word-overlap",
+    "hinglish",
+    "embeddings",
+    "mern",
+    "nlp",
+    "chat-search",
+    "transformers"
+  ],
+  "author": "",
+  "license": "MIT"
+}
